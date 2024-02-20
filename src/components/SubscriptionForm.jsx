@@ -38,7 +38,7 @@ export default function SubscriptionForm({visitor}) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto shadow-md py-8">
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto py-8">
   <h2 className="text-2xl font-semibold mb-4 text-center">Become a Member Today, it's free!</h2>
   <div className="space-y-4">
     <div>
