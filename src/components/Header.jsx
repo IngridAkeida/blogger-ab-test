@@ -16,7 +16,7 @@ export default function Header() {
       <div className="flex items-center">
         <Link to='/'>
           <div>
-            <Image src={logo} alt="logo" className="h-16 w-auto bg-fuchsia-50 rounded-full"/>
+            <Image src={logo} alt="logo" className='h-16 object-fill object-center w-auto bg-fuchsia-50 rounded-full'/>
           </div>
         </Link>
       </div>
