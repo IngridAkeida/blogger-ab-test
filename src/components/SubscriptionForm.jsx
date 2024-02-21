@@ -23,14 +23,15 @@ export default function SubscriptionForm({visitor}) {
       group: visitor === 0 ? "messageA" : "messageB",
     });
 
-    const alertA = () => alert("Thank you, now you are member, check your E-mail box!");
-    const alertB = () => alert("Thank you for being part, you will soon receive more information in your email!");
-
     setFormData({
       name: '',
       email: ''
         
     });
+
+
+    const alertA = () => alert(`Hey, ${formData.name} Thank you, now you are member, check your E-mail box!`);
+    const alertB = () => alert(` Hey, ${formData.name} Thank you for being part, you will soon receive more information in your email!`);
 
     if(formData.name && formData.email){
       visitor === 0 ? alertA() : alertB()
