@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A/B testing Assessment
 
-## Getting Started
+My solution has two types of alerts when the user completes the subscription. 
 
-First, run the development server:
+In this project, I needed to apply an A/B test as a Brief, this should contain:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- At least one static section
+- At least one dynamic section (your A/B test)
+- At least one CTA with tracking
+- This doesn’t have to be posted anywhere, it can be a console.log to the console with the proper naming convention and payload.
+- Keep GDPR in mind.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Criteria: 
+- Create an A/B test that doesn’t redirect the user to another page/URL.
+- The technique of your choice should be implemented properly.
+- Track user interactions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## You will find in this project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Learn More
+## Table of contents
 
-To learn more about Next.js, take a look at the following resources:
+- [Overview](#overview)
+  - [Links](#links)
+- [Author](#author)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Overview
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Solution URL: [https://github.com/IngridAkeida/react-hyperflix-movies-hub](https://github.com/IngridAkeida/page-ab-testing)
+- Live Site URL: [https://react-hyperflix-movies-hub.netlify.app/](https://ab-testing-ingridsanches.netlify.app/)
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- GitHub - [Ingrid Sanches](https://github.com/ingridAkeida)
