@@ -40,36 +40,36 @@ export default function SubscriptionForm({visitor}) {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-md mx-auto py-8">
-  <h2 className="text-2xl font-semibold mb-4 text-center">Become a Member Today, it`s free!</h2>
-  <div className="space-y-4">
-    <div>
-      <label htmlFor="name" className="block mb-1">Name:</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        value={formData.name}
-        onChange={handleChange}
-        required
-        className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-      />
+    <h2 className="text-2xl font-semibold mb-4 text-center">Become a Member Today, it`s free!</h2>
+    <div className="space-y-4">
+      <div>
+        <label htmlFor="name" className="block mb-1">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+          className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500 text-gray-900"
+        />
+      </div>
+      <div>
+        <label htmlFor="email" className="block mb-1">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+          className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500 text-gray-900"
+        />
+      </div>
+      
+      <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300" >Subscribe</button>
     </div>
-    <div>
-      <label htmlFor="email" className="block mb-1">Email:</label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        value={formData.email}
-        onChange={handleChange}
-        required
-        className="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
-      />
-    </div>
-    
-    <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300" >Subscribe</button>
-  </div>
-</form>
+  </form>
   );
 }
 
