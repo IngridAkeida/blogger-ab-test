@@ -12,8 +12,8 @@ export default function Header() {
   };
 
   return (
-    <nav className="flex items-center justify-between h-20 bg-gradient-to-r to-indigo-900 from-fuchsia-800 bg-opacity-20 px-8 text-fuchsia-200 font-bold shadow-2xl">
-      <div className="flex items-center">
+    <nav className='flex items-center justify-between h-20 bg-gradient-to-r to-indigo-900 from-fuchsia-800 bg-opacity-20 px-8 text-fuchsia-200 font-bold shadow-2xl'>
+      <div className='flex items-center'>
         <Link to='/'>
           <div>
             <Image src={logo} alt="logo" className='h-16 object-fill object-center w-auto bg-fuchsia-50 rounded-full'/>
