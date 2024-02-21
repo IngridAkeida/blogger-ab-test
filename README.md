@@ -28,8 +28,8 @@ Criteria:
 ## Overview
 ### Links
 
-- Solution URL: [https://github.com/IngridAkeida/react-hyperflix-movies-hub](https://github.com/IngridAkeida/page-ab-testing)
-- Live Site URL: [https://react-hyperflix-movies-hub.netlify.app/](https://ab-testing-ingridsanches.netlify.app/)
+- Solution URL: [https://github.com/IngridAkeida/page-ab-testing](https://github.com/IngridAkeida/page-ab-testing)
+- Live Site URL: [https://ab-testing-ingridsanches.netlify.app/](https://ab-testing-ingridsanches.netlify.app/)
 
 ## Author
 
